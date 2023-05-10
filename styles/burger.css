@@ -1,0 +1,45 @@
+.burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    border: 8px;
+    cursor: pointer;
+    padding: 10;
+    z-index: 10;
+    transition: all 0.1s linear;
+    overflow: hidden;
+}
+
+.burger:focus {
+    outline: none;
+}
+
+.burger div {
+    width: 32px;
+    height: 4px;
+    background: rgb(226, 235, 255);
+    border-radius: 10px;
+    transition: all 0.1s linear;
+    position: relative;
+    transform-origin: 0px;
+}
+
+#top-burger {
+    transform: rotate(42.5deg);
+    background-color: rgb(255, 255, 255);
+}
+
+#middle-burger {
+    transform: translate(50px);
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.1s linear;
+    overflow: hidden;
+}
+
+#bottom-burger {
+    transform: rotate(-42.5deg);
+    background-color: rgb(255, 255, 255);
+}
