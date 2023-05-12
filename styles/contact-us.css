@@ -3,10 +3,10 @@
     align-items: center;
     flex-direction: column;
     margin-top: 16px;
-    gap: 32px;
+    gap: 64px;
 }
 
-#contact-us{
+.contact-us{
     font-size: 48px;
 }
 
@@ -23,5 +23,28 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    padding: 0 32px;
+    padding: 0 64px;
+}
+
+.item-header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#socials-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 64px;
+}
+
+#socials-container img{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 64px;
+    background-color: white;
+    border-radius: 32px;
 }
