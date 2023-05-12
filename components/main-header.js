@@ -5,7 +5,7 @@ import { useState } from "react"
 
 export default function MainHeader() {
     const [menu_open, set_menu_open] = useState(false)
-    return(
+    return (
         <>
             <Head>
                 <title>Band name</title>
@@ -13,9 +13,9 @@ export default function MainHeader() {
             <header id="header-style">
                 <div></div>
                 <div id="header-text">
-                <a id="header-link" href="/">
-                    <h1>Random Band name</h1>
-                </a>
+                    <a id="header-link" href="/">
+                        <h1>Band name</h1>
+                    </a>
                 </div>
                 <div id="burger-div">
                     <Burger set_open={set_menu_open} open={menu_open}></Burger>
@@ -24,7 +24,6 @@ export default function MainHeader() {
             <div>
                 <Menu open={menu_open}></Menu>
             </div>
-        
         </>
     )
 }

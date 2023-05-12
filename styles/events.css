@@ -23,7 +23,7 @@
     width: 100%;
 }
 
-.item-header {
+.item-events-header {
     display: flex;
     flex-direction: column;
     align-items: center;

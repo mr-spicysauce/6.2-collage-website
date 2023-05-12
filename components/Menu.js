@@ -28,7 +28,7 @@ export default function Menu({ open }) {
                 Book us
             </a>
 
-            <a>
+            <a href="/about-us">
                 <img
                     height={"64px"}
                     width={"64px"}
