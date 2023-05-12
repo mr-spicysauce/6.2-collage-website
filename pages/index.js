@@ -50,13 +50,14 @@ export default function Home() {
             </div>
             <main className="main-container">
 
-                <img width={1000} height={600} src={items[current_event].imgsrc}></img>
+                <img id="main-image" src={items[current_event].imgsrc}></img>
 
                 <div id="main-container2"> 
 
                 <div className="main-content-containter">
 
                 <h1 className="main-content-header">{items[current_event].name}</h1>
+
 
                 <text> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis justo non nibh pulvinar consectetur. Nunc vitae neque eros.</text>
                 <text> Proin vulputate accumsan tortor eu egestas. Duis ut auctor diam. Cras vehicula libero non porta ullamcorper. Etiam posuere iaculis sodales.</text>

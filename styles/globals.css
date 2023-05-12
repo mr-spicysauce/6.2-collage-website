@@ -170,3 +170,8 @@ body,
   padding: 0px;
   gap: 16px;
 }
+
+#main-image{
+  width: 1000px;
+  height: 600px;
+}
