@@ -174,4 +174,13 @@ body,
 #main-image{
   width: 1000px;
   height: 600px;
+  max-width: 1000px;
+  min-width: 1000px;
+}
+
+#header-link{
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
 }

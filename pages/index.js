@@ -1,7 +1,5 @@
-import Burger from "@/components/Burger"
 import Item from "@/components/Item"
-import Menu from "@/components/Menu"
-import Head from "next/head"
+import MainHeader from "@/components/main-header"
 import { useState } from "react"
 
 var items = [
@@ -33,21 +31,8 @@ export default function Home() {
     
     return (
         <>
-            <Head>
-                <title>Band name</title>
-            </Head>
-            <header id="header-style">
-                <div></div>
-                <div id="header-text">
-                    <h1>Random Band name</h1>
-                </div>
-                <div id="burger-div">
-                    <Burger set_open={set_menu_open} open={menu_open}></Burger>
-                </div>
-            </header>
-            <div>
-                <Menu open={menu_open}></Menu>
-            </div>
+            <MainHeader />
+            
             <main className="main-container">
 
                 <img id="main-image" src={items[current_event].imgsrc}></img>
@@ -62,7 +47,7 @@ export default function Home() {
                 <text> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis justo non nibh pulvinar consectetur. Nunc vitae neque eros.</text>
                 <text> Proin vulputate accumsan tortor eu egestas. Duis ut auctor diam. Cras vehicula libero non porta ullamcorper. Etiam posuere iaculis sodales.</text>
                 <text> Quisque lacinia vulputate egestas. In eu tempus dolor, ut viverra turpis. Donec vitae aliquet augue. Interdum et malesuada fames ac ante ipsum primis in faucibus.</text>
-                <text> Donec lobortis pretium urna, sit amet semper ipsum fermentum vel. Sed a laoreet ligula. Suspendisse vel nunc ipsum. </text>
+                <text> Donec lobortis pretium urna, sit amet semper ipsum fermentum vel. Sed a laoreet ligula. Suspendisse ipsum. </text>
 
                 </div>
 
