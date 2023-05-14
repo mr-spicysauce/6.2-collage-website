@@ -8,13 +8,19 @@ export default function MainHeader() {
     return (
         <>
             <Head>
-                <title>Band name</title>
+                <title>Edset</title>
             </Head>
             <header id="header-style">
-                <div></div>
+                <a id="button-work-plz" href="/">
+                    <img
+                        id="header-img"
+                        height={80}
+                        src="/assets/edset_logo.png"
+                    />
+                </a>
                 <div id="header-text">
                     <a id="header-link" href="/">
-                        <h1>Band name</h1>
+                        <h1>Edset</h1>
                     </a>
                 </div>
                 <div id="burger-div">

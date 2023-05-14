@@ -1,4 +1,4 @@
-#main-container-events {
+.main-container-events {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,12 +6,12 @@
     margin: 16px;
 }
 
-#events {
+.events {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    width: 50%;
+    width: 75%;
     padding: 8px;
     border: 2px solid rgb(231, 255, 255);
 }

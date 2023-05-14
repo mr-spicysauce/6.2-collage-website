@@ -43,3 +43,7 @@
     transform: rotate(-42.5deg);
     background-color: rgb(255, 255, 255);
 }
+
+#button-work-plz {
+    max-width: 175px;
+}
